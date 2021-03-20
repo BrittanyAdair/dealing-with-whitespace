@@ -1,8 +1,28 @@
 html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+article {
+  font-family: 'Crimson Text', serif;
+  font-weight: normal;
+  font-size:
+}
+
+article h1 {
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  color: #222;
+  font-weight: normal;
+}
+
+article header p {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 1.125rem;
+  }
