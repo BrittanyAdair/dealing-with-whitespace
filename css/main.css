@@ -7,11 +7,20 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  font-family: 'Crimson Text', serif;
+  font-weight: normal;
+  font-size: 1rem
+
+}
 
 article {
   font-family: 'Crimson Text', serif;
   font-weight: normal;
-  font-size:
+  font-size: 1rem
+}
+article header {
+
 }
 
 article h1 {
@@ -25,4 +34,28 @@ article header p {
   font-family: 'Crimson Text', serif;
   font-style: italic;
   font-size: 1.125rem;
-  }
+  color: #555;
+}
+
+article ol {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.125rem;
+  color: #555;
+
+}
+
+article p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.125rem;
+  color: #555;
+}
+
+blockquote {
+  font-family: 'Crimson Text', serif;
+  color: #999;
+  font-size: 1.5rem;
+}
+
+.quote {
+
+}
