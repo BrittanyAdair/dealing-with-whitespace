@@ -2,27 +2,30 @@ html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
   line-height: 1.3;
+  color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   font-family: "Crimson Text", serif;
   font-weight: normal;
   font-size: 1.125rem;
-  margin: 0.5em;
+  margin: 0;
 }
 
 article {
   font-family: "Crimson Text", serif;
   font-weight: normal;
-  font-size: 1rem
+  font-size: 1.125rem;
 }
+
 article header {
   font-family: "Crimson Text", serif;
   font-weight: normal;
-  font-size: 1rem
+  font-size: 1.125rem;
 }
 
 article h1 {
@@ -35,33 +38,33 @@ article h1 {
 article header p {
   font-family: "Crimson Text", serif;
   font-style: italic;
-  font-size: 1.125rem;
-  color: #555;
+  font-size: 1rem;
+  color: #222;
+  border-bottom: 1px solid #999;
 }
 
 article ol {
   font-family: "Crimson Text", serif;
   font-size: 1.125rem;
-  color: #555;
-
+  color: #222;
 }
 
 article p {
   font-family: "Crimson Text", serif;
   font-size: 1.125rem;
-  color: #555;
+  color: #222;
 }
 
 blockquote {
   font-family: "Crimson Text", serif;
-  color: #999;
+  color: #555;
   font-size: 1.5rem;
-  padding-left: 1em;
   padding-right: 1em;
+  margin-left: -1rem;
 }
 
 .quote {
   font-family: "Crimson Text", serif;
-  color: #999;
+  color: #555;
   font-size: 1.5rem;
 }
