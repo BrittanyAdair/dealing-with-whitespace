@@ -26,6 +26,7 @@ article header {
   font-family: "Crimson Text", serif;
   font-weight: normal;
   font-size: 1.125rem;
+  border-bottom: 1px solid #999;
 }
 
 article h1 {
@@ -40,8 +41,7 @@ article header p {
   font-style: italic;
   font-size: 1rem;
   color: #222;
-  margin-top: -1.5rem;
-  border-bottom: 1px solid #999;
+  margin-top: -1rem;
 }
 
 article ol {
@@ -61,11 +61,12 @@ blockquote {
   color: #999;
   font-size: 1.5rem;
   padding-right: 1em;
+  margin-left: 3.5rem;
 }
 
 .quote {
   font-family: "Crimson Text", serif;
   color: #999;
   font-size: 1.5rem;
-  margin-left: -1rem;
+  text-align: left;
 }
